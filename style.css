@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Tahoma, Arial;
+}
+.game {
+  width: 400px;
+  text-align: center;
+  color: #fff;
+  margin: auto;
+}
+.game .title {
+  background-color: #9b22ffcc;
+  margin: 10px 0;
+  padding: 15px 0;
+  font-size: 35px;
+}
+.game .title span {
+  color: #0010ff;
+}
+.game .square {
+  width: 129px;
+  height: 130px;
+  background-color: #3e22ff;
+  float: left;
+  margin: 2px;
+  font-size: 100px;
+}
+.game .square:hover {
+  background-color: #004cff9e;
+  cursor: pointer;
+}
+.popup {
+  position: fixed;
+  width: 80%;
+  height: 40%;
+  top: 32%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: auto;
+  background-color: #150c51;
+  color: #fff;
+  text-align: center;
+  font-size: 50px;
+  padding: 100px 0;
+}
+.btn-again {
+  cursor: pointer;
+  padding: 15px 20px;
+  font-size: 25px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #3e22ff;
+  display: block;
+  border: none;
+  border-radius: 5px;
+  left: 50%;
+  top: 50%;
+  margin: 15px auto;
+}
